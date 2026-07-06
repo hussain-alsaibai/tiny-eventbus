@@ -1,0 +1,30 @@
+{
+  "name": "tiny-eventbus",
+  "version": "0.1.0",
+  "description": "Zero-dep durable event bus with replay. JSONL log + topic filtering.",
+  "main": "tiny_eventbus.js",
+  "files": [
+    "tiny_eventbus.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test_tiny_eventbus.js"
+  },
+  "keywords": [
+    "events",
+    "pubsub",
+    "eventbus",
+    "durable",
+    "replay",
+    "agent",
+    "queue",
+    "log"
+  ],
+  "author": "hussain-alsaibai",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {}
+}
